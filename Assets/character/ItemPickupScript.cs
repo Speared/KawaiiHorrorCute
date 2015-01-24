@@ -10,6 +10,9 @@ public class ItemPickupScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		//fire1 should be left mouse
+		if(Input.GetAxis("Fire1") != 0){
+
+		}
 	}
 }
